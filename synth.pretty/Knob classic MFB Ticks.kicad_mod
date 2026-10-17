@@ -1,0 +1,171 @@
+(footprint "Knob classic MFB Ticks"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "071955e7-76fb-4d13-8c32-052e288e39b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Ticks"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51c0d66d-9439-4dd4-9120-c7824016cb60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82dd7183-f05c-48f2-b785-046702db7728")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "11 silkscreen tick indicators for Knob classic MFB black (Wide), 270deg range, 27deg spacing, r 13.0-14.5mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53b7b752-df08-44e3-8868-5ef611ba9f47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -12.8399 -2.0336)
+		(end -14.3215 -2.2683)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbacca92-3017-4649-b106-10c1a4073d77")
+	)
+	(fp_line
+		(start -12.3637 4.0172)
+		(end -13.7903 4.4807)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29f544c1-41ad-445f-8b5f-3e1d38b61065")
+	)
+	(fp_line
+		(start -10.5172 -7.6412)
+		(end -11.7307 -8.5229)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "916da974-ec02-4032-afb5-7dcab9920f4c")
+	)
+	(fp_line
+		(start -9.1924 9.1924)
+		(end -10.253 10.253)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f519a6cf-3c2a-47e7-b244-777791ede895")
+	)
+	(fp_line
+		(start -5.9019 -11.5831)
+		(end -6.5829 -12.9196)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "646e0b18-61a8-4112-884b-7b5291cf4883")
+	)
+	(fp_line
+		(start 0 -13)
+		(end 0 -14.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce020dac-b737-4e6b-ac01-8fa317e58bc5")
+	)
+	(fp_line
+		(start 5.9019 -11.5831)
+		(end 6.5829 -12.9196)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76aeaefc-51d3-4020-a689-e54d2fec675b")
+	)
+	(fp_line
+		(start 9.1924 9.1924)
+		(end 10.253 10.253)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "982c769f-7c5c-404b-9191-b6f20d431eb5")
+	)
+	(fp_line
+		(start 10.5172 -7.6412)
+		(end 11.7307 -8.5229)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6892d9f-492f-4488-9bfc-923622f1b673")
+	)
+	(fp_line
+		(start 12.3637 4.0172)
+		(end 13.7903 4.4807)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b80407e-e60a-4a98-ae52-86a77a36f817")
+	)
+	(fp_line
+		(start 12.8399 -2.0336)
+		(end 14.3215 -2.2683)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "179a9247-dec7-4b2f-b2bc-c744aa1279ac")
+	)
+	(embedded_fonts no)
+)

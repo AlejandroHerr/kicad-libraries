@@ -1,0 +1,82 @@
+(footprint "Knob 1900H ticks"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.SilkS")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa001122-3344-5566-7788-99aabbccddee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Ticks"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb112233-4455-6677-8899-aabbccddeeff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc223344-5566-7788-99aa-bbccddeeff00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Silkscreen tick indicators for Knob 1900H (13mm diameter)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd334455-6677-8899-aabb-ccddeeff0011")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -7.5)
+		(end 0 -9)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "ee445566-7788-99aa-bbcc-ddeeff001122")
+	)
+	(fp_line
+		(start -5.3 5.3)
+		(end -6.36 6.36)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "ff556677-8899-aabb-ccdd-eeff00112233")
+	)
+	(fp_line
+		(start 5.3 5.3)
+		(end 6.36 6.36)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "00667788-99aa-bbcc-ddee-ff0011223344")
+	)
+	(embedded_fonts no)
+)
