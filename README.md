@@ -60,3 +60,17 @@ Reusable schematic blocks, such as the Eurorack power input. See [`synth.kicad_b
 2. In KiCad, open **Preferences → Configure Paths** and add a `LIBRARIES` variable that points to the repo folder. The footprints find their 3D models through `${LIBRARIES}`.
 3. Open **Preferences → Manage Footprint Libraries** and add `${LIBRARIES}/synth_panel.pretty` and `${LIBRARIES}/synth_pcb.pretty`.
 4. Open **Preferences → Manage Design Block Libraries** and add `${LIBRARIES}/synth.kicad_blocks`.
+
+## License
+
+Unless noted below, everything in this repo is licensed under [CC-BY-SA 4.0](LICENSE). You can use, change and share it, including in commercial projects, as long as you give credit and share changes under the same license. PCBs and panels you make with these libraries are your own; the license doesn't apply to them.
+
+## Credits and third-party files
+
+These files weren't made by me, and their rights belong to their authors:
+
+- **KiCad libraries:** `LED_D3.0mm`, `IDC-Header_2x05_P2.54mm_Vertical-NoSign` and `Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_3d` in `synth_pcb.pretty` are based on footprints from the [KiCad libraries](https://gitlab.com/kicad/libraries), licensed CC-BY-SA 4.0 with the KiCad library exception.
+- **3D models by tomma:** `Switch_SPDT_3pos.step`, `Switch_SPST_2pos.step` and `Thonk Jack.step` in `synth_panel.pretty`.
+- **Third-party footprints:** `2MS1T1B5M2RE` and `M64Y102KB40` in `synth_pcb.pretty`.
+
+If you're the author of one of these files and want it credited differently or removed, please open an issue.
