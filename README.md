@@ -48,8 +48,15 @@ The output file is named `ticks_<numTicks>_<startRadius>_<endRadius>.kicad_mod`.
 
 Footprints for the circuit PCBs: switches, pots, jacks, the IDC power header and LEDs. See [`synth_pcb.pretty/README.md`](synth_pcb.pretty/README.md).
 
+## Design blocks
+
+### `synth.kicad_blocks`
+
+Reusable schematic blocks, such as the Eurorack power input. See [`synth.kicad_blocks/README.md`](synth.kicad_blocks/README.md).
+
 ## Setup
 
 1. Clone this repo.
 2. In KiCad, open **Preferences → Configure Paths** and add a `LIBRARIES` variable that points to the repo folder. The footprints find their 3D models through `${LIBRARIES}`.
 3. Open **Preferences → Manage Footprint Libraries** and add `${LIBRARIES}/synth_panel.pretty` and `${LIBRARIES}/synth_pcb.pretty`.
+4. Open **Preferences → Manage Design Block Libraries** and add `${LIBRARIES}/synth.kicad_blocks`.
