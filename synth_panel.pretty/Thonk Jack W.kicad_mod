@@ -1,4 +1,4 @@
-(footprint "Knob 1900H"
+(footprint "Thonk Jack W"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "96ae1f24-af21-4da3-9a2b-b639e4d49235")
+		(uuid "9a1b8526-cd49-4ab5-ae74-493ae71b8630")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Knob"
+	(property "Value" "Jack"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e283e58f-7f96-4857-b595-3000f3e83aee")
+		(uuid "3a63aff0-000c-4d5a-8244-a3fe795550c2")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00a78b29-72d5-4bc2-af59-c4ddb6eba0c2")
+		(uuid "22b324e7-2d1e-4882-8ff2-c9240ae741f0")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d545380-a150-49f3-8281-c3ac800b957f")
+		(uuid "a7623e95-c7ad-4554-a2a4-ff289b9ee12b")
 		(effects
 			(font
 				(size 1 1)
@@ -58,55 +58,55 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
-		(end 6.5 0)
+		(end 4.3 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "063a8438-cf0a-4701-899e-01ca50c4e0e0")
+		(uuid "2aa1b3d1-7df5-43d6-ae6f-3aa2711572c6")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 7 0)
+		(end 4.4 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a922dced-a2b5-4628-b766-9fb1ea822c45")
+		(uuid "efef2874-f2bc-469d-98d8-c0b34579bd88")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "93d42122-17c6-443e-930e-55379da6b0aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 7 7)
-		(drill 7)
+		(size 6.5 6.5)
+		(drill 6.5)
 		(layers "*.Cu" "*.Mask")
-		(uuid "8f4043b4-32f9-4db1-8a44-24231079cb96")
+		(uuid "e75d77a3-0bfd-47bf-92cb-01c328a71df8")
 	)
 	(embedded_fonts no)
-	(model "${LIBRARIES}/synth.pretty/Davies 1900.stp"
-		(hide yes)
+	(model "${LIBRARIES}/synth_panel.pretty/Thonk Jack.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -0.9 0 -10.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
-	(model "${LIBRARIES}/synth.pretty/Knob 1900H black.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
